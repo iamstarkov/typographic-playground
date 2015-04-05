@@ -1,4 +1,4 @@
-# typography-playground
+# typographic-playground
 
 [![Build Status][travis-image]][travis-url]
 
@@ -10,8 +10,8 @@ This project suppoused to be playground for testing my typography modules in rea
 ## Install
 
 ```sh
-git clone git@github.com:matmuchrapna/typography-playground.git
-cd typography-playground
+git clone git@github.com:matmuchrapna/typographic-playground.git
+cd typographic-playground
 npm install
 ```
 
@@ -61,5 +61,5 @@ flexible (but not too flexible) dependency specifications’ can finally be made
 
 MIT © [Vladimir Starkov](http://vstarkov.com/)
 
-[travis-url]: https://travis-ci.org/matmuchrapna/typography-playground
-[travis-image]: http://img.shields.io/travis/matmuchrapna/typography-playground.svg
+[travis-url]: https://travis-ci.org/matmuchrapna/typographic-playground
+[travis-image]: http://img.shields.io/travis/matmuchrapna/typographic-playground.svg
