@@ -1,0 +1,48 @@
+{
+  "name": "typographic-playground",
+  "version": "0.0.0",
+  "description": "Playground for my typographic modules",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "istanbul cover _mocha -- --require babel/register",
+    "precoveralls": "npm run coverage",
+    "coveralls": "coveralls < coverage/lcov.info",
+    "lint": "jscs --esnext -p airbnb index.js test.js",
+    "pretest": "npm run lint",
+    "test": "mocha --require babel/register",
+    "tdd": "mocha --require babel/register --watch",
+    "precommit": "npm test",
+    "transpile": "babel index.js > index.es5.js",
+    "prepublish": "npm run transpile",
+    "postpublish": "rm *.es5.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matmuchrapna/typographic-playground"
+  },
+  "keywords": [
+    "typographic"
+  ],
+  "author": "Vladimir Starkov <matmuchrapna@gmail.com> (http://vstarkov.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.0.0",
+    "coveralls": "^2.11.2",
+    "husky": "^0.7.0",
+    "istanbul": "^0.3.11",
+    "jscs": "^1.12.0",
+    "mocha": "^2.2.1",
+    "mocha-lcov-reporter": "0.0.2",
+  },
+  "dependencies": {
+    "fn-compose": "0.0.2",
+    "typographic-ellipses": "^1.0.8",
+    "typographic-apostrophes": "^1.0.0",
+    "typographic-quotes": "^1.0.2",
+    "typographic-apostrophes-for-possessive-plurals": "^1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/matmuchrapna/typographic-playground/issues"
+  },
+  "homepage": "https://github.com/matmuchrapna/typographic-playground"
+}
