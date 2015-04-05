@@ -1,6 +1,6 @@
 {
   "name": "typographic-playground",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Playground for my typographic modules",
   "main": "index.js",
   "scripts": {
