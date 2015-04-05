@@ -35,7 +35,7 @@
     "mocha-lcov-reporter": "0.0.2"
   },
   "dependencies": {
-    "fn-compose": "0.0.2",
+    "fn-compose": "^1.0.0",
     "typographic-ellipses": "^1.0.8",
     "typographic-apostrophes": "^1.0.0",
     "typographic-quotes": "^1.0.2",
