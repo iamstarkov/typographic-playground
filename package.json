@@ -36,10 +36,11 @@
   },
   "dependencies": {
     "fn-compose": "^1.0.0",
-    "typographic-ellipses": "^1.0.8",
     "typographic-apostrophes": "^1.0.0",
+    "typographic-apostrophes-for-possessive-plurals": "^1.0.0",
+    "typographic-ellipses": "^1.0.8",
     "typographic-quotes": "^1.0.2",
-    "typographic-apostrophes-for-possessive-plurals": "^1.0.0"
+    "typographic-single-spaces": "^1.0.0"
   },
   "bugs": {
     "url": "https://github.com/matmuchrapna/typographic-playground/issues"
