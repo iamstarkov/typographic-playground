@@ -40,6 +40,8 @@
     "typographic-apostrophes": "^1.0.0",
     "typographic-apostrophes-for-possessive-plurals": "^1.0.0",
     "typographic-ellipses": "^1.0.8",
+    "typographic-em-dashes": "^1.0.0",
+    "typographic-en-dashes": "^1.0.0",
     "typographic-quotes": "^1.0.2",
     "typographic-single-spaces": "^1.0.0"
   },
