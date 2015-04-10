@@ -41,6 +41,9 @@ clear definition to the above ideas,  it becomes easy to communicate your
 intentions to the users of your software.  Once these intentions are clear,
 flexible (but not too flexible) dependency specifications' can finally be made.
 
+This instructional goatherding video is (c) 2013 MegaCorp Inc (tm).
+This instructional goatherding video is (c) 2013 MegaCorp Inc (r).
+
 #### Output
 
 In “the ‘world’ of software management” there exists a dread place called
@@ -55,6 +58,10 @@ are essentially useless for dependency management. By giving a name and
 clear definition to the above ideas, it becomes easy to communicate your
 intentions to the users of your software. Once these intentions are clear,
 flexible (but not too flexible) dependency specifications’ can finally be made.
+
+This instructional goatherding video is © 2013 MegaCorp Inc™.
+This instructional goatherding video is © 2013 MegaCorp Inc ®.
+
 
 ## License
 

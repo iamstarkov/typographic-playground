@@ -1,21 +1,31 @@
-import compose from 'fn-compose';
+import compose               from 'fn-compose';
 
-import ellipses from 'typographic-ellipses';
-import singleSpaces from 'typographic-single-spaces';
+import ellipses              from 'typographic-ellipses';
+import singleSpaces          from 'typographic-single-spaces';
 
-import apostrophes from 'typographic-apostrophes';
-import quotes from 'typographic-quotes';
+import apostrophes           from 'typographic-apostrophes';
+import quotes                from 'typographic-quotes';
 import apostrophesForPlurals from 'typographic-apostrophes-for-possessive-plurals';
 
-import endashes from 'typographic-en-dashes';
-import emdashes from 'typographic-em-dashes';
+import copyright             from 'typographic-copyright';
+import trademark             from 'typographic-trademark';
+import registeredTrademark   from 'typographic-registered-trademark';
+
+import endashes              from 'typographic-en-dashes';
+import emdashes              from 'typographic-em-dashes';
 
 export const typographer = compose(
   apostrophes,
   quotes,
   apostrophesForPlurals,
+
   endashes,
   emdashes,
+
+  copyright,
+  trademark,
+  registeredTrademark,
+
   ellipses,
   singleSpaces
 );
@@ -37,6 +47,9 @@ are essentially useless for dependency management.  By giving a name and
 clear definition to the above ideas,  it becomes easy to communicate your
 intentions to the users of your software.  Once these intentions are clear,
 flexible (but not too flexible) dependency specifications' can finally be made.
+
+This instructional goatherding video is (c) 2013 MegaCorp Inc (tm).
+This instructional goatherding video is (c) 2013 MegaCorp Inc (r).
 `;
 
 export const sampleOutput = `
@@ -52,4 +65,7 @@ are essentially useless for dependency management. By giving a name and
 clear definition to the above ideas, it becomes easy to communicate your
 intentions to the users of your software. Once these intentions are clear,
 flexible (but not too flexible) dependency specifications’ can finally be made.
+
+This instructional goatherding video is © 2013 MegaCorp Inc™.
+This instructional goatherding video is © 2013 MegaCorp Inc ®.
 `;
