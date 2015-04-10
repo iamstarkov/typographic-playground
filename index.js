@@ -1,4 +1,4 @@
-import compose               from 'fn-compose';
+import { compose }           from 'ramda';
 
 import ellipses              from 'typographic-ellipses';
 import singleSpaces          from 'typographic-single-spaces';
