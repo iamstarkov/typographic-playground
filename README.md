@@ -10,7 +10,7 @@ This project suppoused to be playground for testing my typography modules in rea
 ## Install
 
 ```sh
-git clone git@github.com:matmuchrapna/typographic-playground.git
+git clone git@github.com:iamstarkov/typographic-playground.git
 cd typographic-playground
 npm install
 ```
@@ -65,7 +65,7 @@ This instructional goatherding video is © 2013 MegaCorp Inc ®.
 
 ## License
 
-MIT © [Vladimir Starkov](http://vstarkov.com/)
+MIT © [Vladimir Starkov](https://iamstarkov.com/)
 
-[travis-url]: https://travis-ci.org/matmuchrapna/typographic-playground
-[travis-image]: http://img.shields.io/travis/matmuchrapna/typographic-playground.svg
+[travis-url]: https://travis-ci.org/iamstarkov/typographic-playground
+[travis-image]: http://img.shields.io/travis/iamstarkov/typographic-playground.svg
