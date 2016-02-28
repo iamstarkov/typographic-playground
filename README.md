@@ -4,7 +4,7 @@
 
 > Playground for my typographic modules
 
-This project suppoused to be playground for testing my typography modules in real world.
+This project supposed to be playground for testing my typography modules in real world.
 
 
 ## Install
