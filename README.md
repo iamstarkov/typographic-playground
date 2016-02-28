@@ -24,7 +24,7 @@ Check *index.js* for list of used typographic modules and for text samples for p
 
 ## Real world tests
 
-Thanks to http://semver.org/ for text sample. Btw, I modified them to reflect all used modules.
+Thanks to http://semver.org/ for text sample. BTW, I modified them to reflect all used modules.
 
 #### Input
 
