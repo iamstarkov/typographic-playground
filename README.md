@@ -1,5 +1,7 @@
 # typographic-playground
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/iamstarkov/typographic-playground.svg)](https://greenkeeper.io/)
+
 [![Build Status][travis-image]][travis-url]
 
 > Playground for my typographic modules
